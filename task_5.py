@@ -5,6 +5,8 @@ def factorial(n):
         a = a * (i + 1)
     return a
 
-
 def report():
-    pass
+    for i in range(101):
+        digits = len(str(factorial(i)))
+        print(f"{i : 4}! is {digits : 4} digits long")
+
