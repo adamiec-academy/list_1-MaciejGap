@@ -8,5 +8,5 @@ def factorial(n):
 def report():
     for i in range(101):
         digits = len(str(factorial(i)))
-        print(f"{i : 4}! is {digits : 4} digits long")
+        print(f"{i : 3}! is {digits : 3} digits long")
 
