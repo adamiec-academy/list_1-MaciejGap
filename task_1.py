@@ -1,2 +1,5 @@
 def cross(n):
-    pass
+    print((" " * n + "*" * n + " " * n + "\n")*n, end="")
+    print(("*" * n + "*" * n + "*" * n + "\n")*n, end="")
+    print((" " * n + "*" * n + " " * n + "\n")*n, end="")
+
